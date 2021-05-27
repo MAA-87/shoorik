@@ -1,1 +1,0 @@
-# shoorik.github.io
