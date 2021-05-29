@@ -31,27 +31,23 @@ body{
       font-family: 'Roboto', sans-serif;
       padding-top: 2%;
       padding-left: 20%;
+    display:grid;
+    grid=template-columns:15% 1fr 15%;
 } 
 
  
    
       #cat{
+          grid-template-area:1/2/2/3;
         width: 900px;
         height: 900px;
-
 background-image: url(bg.png);
 background-position:center;
-
 background-repeat: no-repeat;
-
-background-color: linear-gradient(to right, #E2BA58,#DCB250);
       color:var(--ul_color);
       position: relative;
       padding-left: 5%;
       padding-right: 5%;
- 
-
-
 
 }
 
@@ -101,9 +97,7 @@ li:nth-child(6):hover{
   text-decoration:overline;
   text-indent: 2pt;
   text-decoration-color:gainsboro;
-
   list-style-position:outside;
-
   list-style-image:url(li1.png);
 }
 
@@ -178,8 +172,7 @@ li:nth-child(6):hover{
     
    footer{
      color: var(--font_color);
-     margin-top: 1%;
-     margin-left: 42%;
+text-align:center;
    } 
 
 
@@ -252,7 +245,7 @@ li:nth-child(6):hover{
       
         </ul>
       </div>
-      <footer>MAA-87 © 1stGitPage ©2021 </footer>
+      <footer>MAA-87 ©2021 1stGitPage  </footer>
     
 </body>
 </html>
